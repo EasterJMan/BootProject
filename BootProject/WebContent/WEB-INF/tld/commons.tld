@@ -10,7 +10,7 @@
     <!-- 指定标签库的名称 -->
     <short-name>common</short-name>
     <!-- 指定标签库的URI -->
-    <uri>http://jzy.cn/common/</uri>
+    <uri>http://itheima.com/common/</uri>
     <!-- 指定标签库的显示名称 -->
     <display-name>Common Tag</display-name>
     <!-- 指定标签库的描述 -->

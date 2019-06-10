@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ page trimDirectiveWhitespaces="true"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="itheima" uri="http://jzy.cn/common/"%>
+<%@ taglib prefix="itheima" uri="http://itheima.com/common/"%>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://" + request.getServerName() 
@@ -32,11 +32,11 @@
   <nav class="navbar navbar-default navbar-static-top" role="navigation"
 		 style="margin-bottom: 0">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="<%=basePath%>customer/list.action">BOOT客户管理系统 </a>
+		<a class="navbar-brand" href="<%=basePath%>customer/list.action">BOOT客户管理系统</a>
 	</div>
 	<!-- 导航栏右侧图标部分 -->
 	<ul class="nav navbar-top-links navbar-right">
-		<!-- 用户信息start -->
+		<!-- 用户信息 start -->
 		<li class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
 				<i class="fa fa-user fa-fw"></i>
@@ -55,7 +55,7 @@
 				</li>
 			</ul> 
 		</li>
-		<!-- 用户信息结束 -->
+		<!-- 用户信息和结束 -->
 	</ul>
 	<!-- 左侧显示列表部分 start-->
 	<div class="navbar-default sidebar" role="navigation">
