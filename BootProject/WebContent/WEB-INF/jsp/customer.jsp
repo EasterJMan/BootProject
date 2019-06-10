@@ -3,11 +3,6 @@
 <%@ page trimDirectiveWhitespaces="true"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="itheima" uri="http://jzy.cn/common/"%>
-<!-- request.getSchema()可以返回当前页面使用的协议，http 或是 https
-     request.getServerName()可以返回当前页面所在的服务器的名字
-     request.getServerPort()可以返回当前页面所在的服务器使用的端口
-     request.getContextPath()可以返回当前页面所在的应用的名字
-      -->
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://" + request.getServerName() 
@@ -17,7 +12,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>客户管理</title>
+	<title>客户管理-BootCRM</title>
 	<!-- 引入css样式文件 -->
 	<!-- Bootstrap Core CSS -->
 	<link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet" />
@@ -41,8 +36,7 @@
 	</div>
 	<!-- 导航栏右侧图标部分 -->
 	<ul class="nav navbar-top-links navbar-right">
-	    
-		<!-- 用户信息和系统设置 start -->
+		<!-- 用户信息start -->
 		<li class="dropdown">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
 				<i class="fa fa-user fa-fw"></i>
@@ -61,7 +55,7 @@
 				</li>
 			</ul> 
 		</li>
-		<!-- 用户信息和系统设置结束 -->
+		<!-- 用户信息结束 -->
 	</ul>
 	<!-- 左侧显示列表部分 start-->
 	<div class="navbar-default sidebar" role="navigation">
